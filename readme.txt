@@ -9,7 +9,7 @@ Tags: email, smtp, gmail, sendmail, wp_mail, phpmailer, outgoing mail, tls, ssl,
 Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: 3.1
-Version: 3.1
+Version: 3.1.1
 
 Configure SMTP mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail).
 
