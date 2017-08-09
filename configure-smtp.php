@@ -168,9 +168,10 @@ class c2c_ConfigureSMTP extends C2C_Plugin_023 {
 	 *
 	 * @return void (Text will be echoed.)
 	 */
-	public function options_page_description() {
+public function options_page_description( $description = '') {
 		$options = $this->get_options();
-		parent::options_page_description( __( 'Configure SMTP Settings', $this->textdomain ) );
+                $description = __( 'Configure SMTP Settings', $this->textdomain );
+		parent::options_page_description($description);
 		if ( ! empty( $this->error_msg ) )
 			echo $this->error_msg;
 		$str = '<a href="#test">' . __( 'test', $this->textdomain ) . '</a>';

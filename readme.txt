@@ -1,3 +1,7 @@
+=== Configure SMTP Fork ===
+
+This is a fork of configure SMTP which is not longer compatible with PHP 7.
+
 === Configure SMTP ===
 Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
