@@ -5,8 +5,8 @@
  * @version 3.1
  */
 /*
-Plugin Name: Configure SMTP
-Version: 3.1
+Plugin Name: Configure SMTP Fork
+Version: 3.1.1
 Plugin URI: http://coffee2code.com/wp-plugins/configure-smtp/
 Author: Scott Reilly
 Author URI: http://coffee2code.com
