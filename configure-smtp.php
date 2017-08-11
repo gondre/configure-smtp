@@ -44,7 +44,7 @@ if ( ! class_exists( 'c2c_ConfigureSMTP' ) ) :
 
 require_once( 'c2c-plugin.php' );
 
-class c2c_ConfigureSMTP extends C2C_Plugin_023 {
+class c2c_ConfigureSMTP extends C2C_Plugin_039 {
 
 	public static $instance;
 
@@ -70,7 +70,7 @@ class c2c_ConfigureSMTP extends C2C_Plugin_023 {
 		if ( ! is_null( self::$instance ) )
 			return;
 
-		$this->C2C_Plugin_023( '3.1', 'configure-smtp', 'c2c', __FILE__, array() );
+		parent::__construct( '3.1', 'configure-smtp', 'c2c', __FILE__, array() );
 		register_activation_hook( __FILE__, array( __CLASS__, 'activation' ) );
 		self::$instance = $this;
 	}
